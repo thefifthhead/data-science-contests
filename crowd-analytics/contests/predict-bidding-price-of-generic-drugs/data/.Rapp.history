@@ -1,0 +1,45 @@
+demo()
+wd
+pwd
+getwd
+getwd()
+setwd('~/dev/codebase/data-science/crowd-analytics/contests/predict-bidding-price-of-generic-drugs/data')
+data <- 'CAX_Bidding_TRAIN_Molecule_3_4_5.csv'
+data
+attach(data)
+data <- read.csv('CAX_Bidding_TRAIN_Molecule_3_4_5.csv')
+data
+data
+data <- read.csv('CAX_Bidding_TRAIN_Molecule_3_4_5.csv', header=T, row.names=1)
+data <- read.csv('CAX_Bidding_TRAIN_Molecule_3_4_5.csv', header=T)
+head(data)
+head(data[2])
+data[5] <- NULL
+head(data[2])
+head(data)
+data[3] <- NULL
+head(data)
+head(data[2-4])
+head(data[])
+head(data)
+head(data[10-])
+head(data[10-15])
+head(data[10:15])
+head(data[12:15])
+head(data[13:15])
+head(data[13:18])
+head(data[13:22])
+head(data[13:22])
+data[13:22] <- NULL
+data[13:22] <- list(NULL)
+head(data[13:22])
+head(data)
+head(data[13:22])
+data[13:22] <- list(NULL)
+head(data[13:22])
+head(data)
+stat_bin
+data$Presentation
+plot(data$Winning_price_per_standard_unit)
+hist(data$Winning_price_per_standard_unit)
+hist(data$Winning_price_per_standard_unit)
